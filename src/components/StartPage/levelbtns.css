@@ -1,0 +1,28 @@
+.btn.active{
+    opacity: 1;
+}
+
+.btn{
+    border: none;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 28px;
+    width: 170px;
+    padding: 18px;
+
+}
+.btn:nth-child(1){
+
+    background-color: #66cb1e;
+
+}
+.btn:nth-child(2){
+    background-color: #dd5516;
+}
+
+
+.btn.btn:nth-child(3){
+
+    background-color: #b81111;
+ 
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Montserrat"
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+button{
+
+  cursor: pointer;
+}
+button:active{
+  opacity: 0.8;
+}

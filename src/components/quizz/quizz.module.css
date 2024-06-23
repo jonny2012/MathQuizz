@@ -1,0 +1,29 @@
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b2d48;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.logo{
+    color: #72f4f4;
+    font-size: 60px;
+}
+
+.btn{
+    font-size: 34px;
+    width: 200px;
+    padding: 24px;
+    background-color: #2e8fc3;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+.start_link{
+    text-decoration: none;
+    
+}

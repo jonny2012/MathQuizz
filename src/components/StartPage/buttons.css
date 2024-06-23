@@ -1,0 +1,36 @@
+
+
+
+.start_btn{
+    font-size: 34px;
+    width: 200px;
+    padding: 24px;
+    background-color: #2e8fc3;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+.start_btn:disabled{
+    opacity: 0.6;
+    cursor:not-allowed;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.types_play{
+
+    display: flex;
+    gap:  30px;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}

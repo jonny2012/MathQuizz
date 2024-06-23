@@ -1,0 +1,14 @@
+
+
+.animate{
+    animation: 2s linear 0s infinite alternate change;
+}
+
+@keyframes  change{
+    from{
+        transform: translateY(5px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
