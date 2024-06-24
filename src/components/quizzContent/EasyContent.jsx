@@ -30,7 +30,7 @@ import style from "./easy.module.css"
         else {
             box.appendChild(wrong)
             setWrongCountEasy(() => WrongCount + 1)
-            setWrongCount(()=> CorectCount +1)
+            setWrongCount(()=> WrongCount +1)
         }
 
     }

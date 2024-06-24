@@ -18,8 +18,8 @@ export default function QuizzContent({ hardity }) {
     const [testsCount, setTestsCount] = useState(0)
 
 
-    const minute = 2
-    const seconds = 0
+    const minute = 0
+    const seconds = 10
 
 
     return (

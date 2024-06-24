@@ -3,7 +3,7 @@ import { useState } from "react"
 
 
 
-export default function MediumContent({setCorectCount, setWrongCount, setTestsCount,wrongcountM, change}){
+export default function MediumContent({setCorectCount, setWrongCount, setTestsCount}){
     const [FirstNumber, SetFirstNumber] = useState(Math.floor(Math.random() * (30 - 1) + 1))
     const [SecondNumber, SetSecondNumber] = useState(Math.floor(Math.random() * (30 - 1) + 1))
     const [ThirdNumber, SetThirdNumber] = useState(Math.floor(Math.random() * (20 - 1) + 1))

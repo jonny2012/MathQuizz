@@ -6,7 +6,7 @@ export default function HardContent({setCorectCount, setWrongCount, setTestsCoun
     const [secondNumber, SetSecondNumber] = useState(Math.floor(Math.random() * (20 - 5) + 5))
     const [thirdNumber, SetThirdNumber] = useState(Math.floor(Math.random() * (30- 1) + 1))
     const [fourthNumber, setFourthNumber] = useState(Math.floor(Math.random() * (7 - 1) + 1))
-    const [CorectCount, setCorectCountMedium] = useState(0)
+    const [corectCount, setCorectCountMedium] = useState(0)
     const [wrongcount, setWrong] = useState(0)
     const [TestsCount, setTestsCountEasy] = useState(0)
     let result = 0
@@ -22,8 +22,8 @@ export default function HardContent({setCorectCount, setWrongCount, setTestsCoun
 
         if (result === Number(input.value)) {
             box.appendChild(corect)
-       setCorectCountMedium(CorectCount + 1)
-            setCorectCount( CorectCount + 1)
+       setCorectCountMedium(corectCount + 1)
+            setCorectCount( corectCount + 1)
         }
    
         else if(!input.value) {
